@@ -3,7 +3,7 @@ package Personas;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class VentanaPrincipal {
+public class VentanaPrincipal extends Persona {
     private final ListaPersonas lista = new ListaPersonas();
     private final DefaultListModel modelo = new DefaultListModel<>();
     ImageIcon img = new ImageIcon("Personas/icon.png");
