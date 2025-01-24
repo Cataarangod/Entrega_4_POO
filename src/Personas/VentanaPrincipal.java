@@ -18,6 +18,7 @@ public class VentanaPrincipal extends Persona {
     private JButton btnAgregar, btnEliminarPersona, btnBorrarLista;
 
     public VentanaPrincipal() {
+        super();
         btnAgregar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
